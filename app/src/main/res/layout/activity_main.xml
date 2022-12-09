@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="248dp"
+        android:width="10dp"
+        android:height="10dp"
+        android:background="#BFC5B9"
+        android:hint="Username"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="312dp"
+        android:width="10dp"
+        android:height="10dp"
+        android:background="#BFC5B9"
+        android:hint="Password"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Forgotpassword"
+        android:textStyle="bold"
+        android:layout_width="125dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="372dp"
+        android:width="100dp"
+        android:height="100dp"
+        android:text="Forgot Password?"
+        android:textColor="#644B91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="293dp"
+        android:layout_height="299dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_login" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="584dp"
+        android:text="Login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="364dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/help" />
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="648dp"
+        android:width="30dp"
+        android:height="30dp"
+        android:text="Dont have an account?"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Create"
+        android:layout_width="56dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="648dp"
+        android:onClick="onClick"
+        android:width="30dp"
+        android:height="30dp"
+        android:text="Create"
+        android:textColor="@color/purple_500"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
